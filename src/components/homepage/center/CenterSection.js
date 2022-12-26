@@ -4,7 +4,9 @@ import styles from './CenterSection.module.css';
 
 const CenterSection = () => {
     return (
-        <div className={`${styles['centered_section']} section`}></div>
+        <div className={`${styles['centered_section']} section`}>
+            <h1>Centered</h1>
+        </div>
     )
 }
 

@@ -61,3 +61,25 @@
     width: 100%;
     padding: 10px 0 0 0;
 }
+
+
+
+.artist_lists {
+    width: 20vw;
+    overflow-x: scroll;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.artist_lists::-webkit-scrollbar {
+    height: 2px;
+}
+
+.artist_lists::-webkit-scrollbar-thumb {
+    background-color: white;
+    /* display: none; */
+}
+
+.artist_lists::-webkit-scrollbar-corner {
+    display: none;
+}

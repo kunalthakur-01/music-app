@@ -7,7 +7,7 @@ import { GiHeartInside } from 'react-icons/gi';
 import { TiChartBar } from 'react-icons/ti';
 import { Link } from 'react-router-dom';
 
-const LeftSidebar = () => {
+const LeftSidebar = React.memo(() => {
     return (
         <div className={`${styles['left_sidebar']} section`}>
             <ul>
@@ -18,6 +18,6 @@ const LeftSidebar = () => {
             </ul>
         </div>
     )
-}
+});
 
 export default LeftSidebar;

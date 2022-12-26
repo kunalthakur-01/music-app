@@ -1,0 +1,18 @@
+.search_section {
+    padding: 1rem;
+    overflow: auto;
+}
+
+.search_section::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 10px;
+}
+
+.search_section::-webkit-scrollbar-thumb {
+    background-color: white;
+    /* display: none; */
+}
+
+.search_section::-webkit-scrollbar-corner {
+    display: none;
+}
