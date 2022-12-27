@@ -51,7 +51,11 @@ const Navbar = ({code}) => {
     }, []);
     
     useEffect(() => {
-        ctx.getSearchedData(search);
+        const timeOut = setTimeout(() => {
+            ctx.getSearchedData(search);
+        }, 500);
+
+        return () => clearTimeout(timeOut);
     }, [search, ctx]);
     // console.log('navbar');
 
